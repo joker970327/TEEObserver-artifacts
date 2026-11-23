@@ -1,9 +1,9 @@
-# Supplementary Material S2 — Raw measurement data
+# Raw measurement data
 
-One CSV per data figure, plus Table 8. Only the per-request records are included;
-the aggregate values plotted or printed are not repeated. `fig06.csv` holds the
-per-request data of Figure 6(a); the nine initialization values of Figure 6(b)
-and the TEEObserver row of Table 9 are aggregates and have no separate file.
+This folder contains the raw measurement records of the paper "TEEObserver: A Remote Attestation Scheme for ARM Secure World Based on Secure Virtualization".
+There is one CSV file per data figure and one for Table 8.
+Only per-request records are included. The aggregate values plotted or printed in the paper are not repeated.
+The nine initialization values of Figure 6(b) and the TEEObserver row of Table 9 are aggregates, so they have no separate file.
 
 | CSV | Figure / table | Contents | Rows |
 |---|---|---|---|
@@ -12,7 +12,7 @@ and the TEEObserver row of Table 9 are aggregates and have no separate file.
 | `fig08.csv` | Figure 8 | Massif heap and stack snapshots, Raspberry Pi 3B | 187 |
 | `table08.csv` | Table 8 | individual requests: measurement, AK certification, report signing | 558 |
 
-Times are in ms, memory in KiB, sizes in bytes. `run 1` is the discarded
-warm-up request (`warmup=1`); means use runs 2–31. Units are in the column
-names; the measurement setup is described in Section 6 of the manuscript and
-in S1.
+Times are in ms, memory in KiB and sizes in bytes. The unit of each column is given in its name.
+In `fig06.csv` and `table08.csv`, `run 1` is the discarded warm-up request (`warmup=1`), and the means use runs 2–31.
+
+The measurement setup is described in Section 6 of the paper and in [`docs/`](../docs/).

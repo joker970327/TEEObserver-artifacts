@@ -1,0 +1,17 @@
+{
+  "title": "TEEObserver-artifacts: Implementation documentation and raw benchmark data",
+  "upload_type": "dataset",
+  "description": "Implementation documentation and raw benchmark data for the paper \"TEEObserver: A Remote Attestation Scheme for ARM Secure World Based on Secure Virtualization\". The prototype source code is not included.",
+  "creators": [
+    {"name": "Ji, Minzhi"},
+    {"name": "Gao, Haiyuan"},
+    {"name": "Cai, Heng"},
+    {"name": "Xie, Yunyun"},
+    {"name": "Chen, Peiwen"},
+    {"name": "Tong, Juncheng"},
+    {"name": "Zhao, Bo"}
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": ["TrustZone", "remote attestation", "Secure EL2", "Hafnium", "Arm FVP"]
+}

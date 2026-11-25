@@ -12,6 +12,7 @@ This repository documents what the prototype changes and how the reported result
 | Path | Contents |
 |---|---|
 | `docs/hafnium-overview.pdf` | One-page overview of the changes to Hafnium: modified files, measured and write-protected ranges, boot-time and per-request processing, and build configuration |
+| `docs/implementation.md` | Build steps, and the components and files that the prototype changes |
 | `data/` | Raw per-request measurement records behind Figures 6–8 and Table 8. See [`data/README.md`](data/README.md). |
 
 ## Platform

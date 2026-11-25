@@ -30,6 +30,7 @@ Figure 6(b) uses one build per partition set.
 | Trusted Services 1.0.0 | New Linux application TOP | `deployments/top/`, `components/app/top/` | `build-trusted-services.sh` |
 | TF-A v2.11.0 | Device trees only: TOA is added like any other Secure Partition | In `plat/arm/board/tc/fdts/`: `tc_spmc_manifest.dtsi`, `tc_spmc_common_sp_manifest.dtsi`, `tc_spmc_optee_sp_manifest.dtsi`, `tc_tb_fw_config.dts` | `build-tfa.sh` |
 
-The code of OP-TEE, ITS, Crypto, FWU and Linux is not changed.
+TEEObserver requires no change to the code of OP-TEE, ITS, Crypto, FWU or Linux.
 
+The measurement procedures of all experiments are described in Sections 6.2 and 6.4 of the paper.
 [`data/README.md`](../data/README.md) describes the raw data.
